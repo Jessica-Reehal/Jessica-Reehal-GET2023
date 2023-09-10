@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form id="myForm">
+        <div>
+            <label for="full_name">Full Name</label>
+            <input required type="text" name="full_name" placeholder="First Name" />
+            <input type="text" name="full_name" placeholder="Last Name" required/>
+        </div>
+
+        <br />
+        <div>
+            <label for="address">Address</label>
+            <textarea name="address"></textarea>
+        </div>
+        <br />
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" required></input>
+        </div>
+        <br />
+
+        <div>
+            <label for="phone">Phone</label>
+            <input type="number" name="phone" required></input>
+        </div>
+        <br />
+
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" required>Male</input>
+            <input type="radio" name="gender" required>Female</input>
+        </div>
+        <br />
+
+        <div>
+            <label for="hobbies">Hobbies</label>
+            <input type="checkbox" name="hobbies">Cricket</input>
+            <input type="checkbox" name="hobbies">Movies</input>
+            <input type="checkbox" name="hobbies">Hockey</input>
+        </div>
+        <br />
+
+        <div>
+            <label required for="languages">Languages</label>
+            <input type="text" name="languages" required/>
+        </div>
+        <br />
+
+        <div>
+            <label for="skills">Skills</label>
+
+            <select multiple>
+                <option name="skills" value="Python">Python</option>
+                <option name="skills" value="C++">C++</option>
+                <option name="skills" value="Java">Java</option>
+                <option name="skills" value="Networking">Networking</option>
+            </select>
+        </div>
+        <br/>
+
+        <div>
+            <label for="country">Select Country</label>
+
+            <select>
+                <option value="India">India</option>
+                <option value="Canada">Canada</option>
+                <option value="US">US</option>
+                <option value="UK">UK</option>
+            </select>
+        </div>
+        <br/>
+
+        <div>
+            <label for="date">Date</label>
+            <input type="date" name="date" required/>
+        </div>
+        <br/>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" required/>
+        </div>
+        <br/>
+
+        <div>
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" name="confirm_password" required/>
+        </div>
+        <br/>
+
+        <button type="submit">Submit</button>
+        <button>Refresh</button>
+       
+    </form>
+
+
+
+</body>
+
+</html>
