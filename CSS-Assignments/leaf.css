@@ -1,0 +1,20 @@
+#div_fig
+{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    border-top: 20px solid green;
+    border-right: 20px solid green;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+#flower
+{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-top-right-radius: 180px;
+    border-bottom-left-radius: 180px;
+    border: 20px solid blue;
+}
